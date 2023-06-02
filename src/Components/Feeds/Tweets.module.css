@@ -1,0 +1,92 @@
+.mainBox {
+  border: 0.1px solid #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+}
+
+#showTweetBtn {
+  min-height: 3rem;
+  border: 0.1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1d9bf0;
+}
+
+#showTweetBtn:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.scroller {
+  overflow: scroll;
+ height: 180vh;
+}
+
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+/* ------------------------ Tweet CSS ------------------- */
+
+#tweet {
+  /* height: 46vh; */
+  border: 0.1px solid #f0f0f0;
+}
+
+#tweetData {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+#content {
+  /* background-color: grey; */
+  margin: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+#imgBox {
+  max-height: 3rem;
+  max-width: 3rem;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+#feedImg {
+  width: 100%;
+  height: 16rem;
+  border-radius: 1rem;
+}
+
+.icon {
+  color: #6d7174;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.feedIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+#name {
+  font-weight: 600;
+}
+
+.fontSecondary {
+  color: #6d7174;
+}
+
+.fontTernary {
+  color: #7c8994;
+}
+#comment:hover {
+  color: red;
+}

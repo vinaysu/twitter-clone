@@ -1,0 +1,202 @@
+.BtnIcon {
+  display: none;
+}
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.UsersName{
+  height: 3vh;
+}
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 1rem 3rem;
+}
+.container:hover {
+  background-color: rgba(224, 214, 214, 0.58);
+  border-radius: 2rem;
+  object-fit: cover;
+}
+.container {
+  display: flex;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+.icons2 {
+  font-size: 4vh;
+}
+
+.names {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+@media screen and (max-width: 1200px) {
+  .names {
+    display: none;
+  }
+  .UsersName{
+    display: flex;
+    justify-content: center;
+  }
+  .Sidebar {
+    display: flex;
+    align-items: flex-end;
+    max-width: 100%;
+    margin: 0;
+  }
+  .BtnIcon {
+    display: block;
+    color: white;
+    background-color: aqua;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    border-radius: 7rem;
+    margin-top: 0.2rem;
+  }
+  .icons2{
+    font-size: 1.7rem;
+  }
+}
+@media screen and (max-width: 600px){
+  .Sidebar{
+    margin: 0;
+  }
+}
+@media screen and (max-width: 600px){
+  .Sidebar{
+    margin: 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .Sidebar {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.5rem;
+    padding: 0 ;
+    margin: 0;
+    gap: 1rem
+  }
+  .mainContainer{
+    display: flex;
+    gap: 1rem;
+    margin-right: 1rem;
+    
+  }
+  .UsersName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* ------------------------- Add Tweet Dialog CSS---------------------------- */
+
+#mainBox {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  /* border: 0.1px solid #f0f0f0; */
+  width: auto;
+  height: auto;
+}
+
+#content {
+  margin: 10px 15px 0px 15px;
+  /* border: 0.1px solid grey; */
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#imgBox {
+  height: 3rem;
+  width: 3rem;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+#feedType > input {
+  border: none;
+  font-size: 20px;
+}
+
+#feedType > input:focus {
+  outline: none;
+}
+
+#addTweetFoot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0px 1rem; */
+  /* margin-right: 1rem; */
+  /* background-color: grey; */
+}
+
+.icons {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  gap: 1rem;
+  /* border: 2px solid; */
+}
+
+.icon {
+  color: #1d9bf0;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+#tweetBtn {
+  border: none;
+  background-color: #1d9bf0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 40px;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#feedTypeBtn {
+  color: #1d9bf0;
+  border: 0.1px solid rgb(189, 189, 189);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#feedTypeBtn:hover {
+  background-color: #e7f1f9;
+}
+
+#selectedType {
+  color: #1d9bf0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 160px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 10px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+#selectedType:hover {
+  background-color: #e7f1f9;
+}

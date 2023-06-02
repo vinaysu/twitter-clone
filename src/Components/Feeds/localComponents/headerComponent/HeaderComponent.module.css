@@ -1,0 +1,30 @@
+.mainBox {
+  border: 0.1px solid #f0f0f0;
+  min-height: 7rem;
+
+  /* background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(50px);
+  z-index: 4; */
+}
+
+/* #content {
+  padding: 15px;
+} */
+
+#feedBtnBox {
+  display: flex;
+  height: 50%;
+}
+
+#feedToggleBtn {
+  width: 50%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#feedToggleBtn:hover {
+  background-color: #f0f0f0;
+}

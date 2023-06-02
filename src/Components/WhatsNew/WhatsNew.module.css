@@ -1,0 +1,51 @@
+.MainDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 0 0;
+  background-color: #f7f9f9;
+  border-radius: 2rem;
+  width: 100%;
+  height: fit-content;
+  /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); */
+}
+
+.Div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+}
+.Div:hover {
+  background-color: rgba(219, 230, 230, 0.786);
+}
+.heading {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  font-family: "Mukta", sans-serif;
+  font-weight: 1000;
+}
+.button{
+    border: none;
+    height: 3rem;
+    font-size: 15px;
+    text-align: left;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding-left: 1rem;
+    background-color: none;
+    color: #6abcf3;
+    
+}
+.button:hover {
+  background-color: rgba(219, 230, 230, 0.786);
+}
+.para1 {
+  font-size: 0.8rem;
+}
+
+.icon{
+  font-size: 2rem;
+}
+.button{
+  display: flex;
+  gap: 1rem;
+}

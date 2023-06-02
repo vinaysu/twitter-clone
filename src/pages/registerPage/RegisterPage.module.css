@@ -1,0 +1,98 @@
+.registerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.formContainer {
+  /* height: 30vw;
+  width: 27vw; */
+  padding: 0em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.MuiInputBase-input {
+  background: white;
+}
+
+.MuiTextField-root {
+  background: white;
+}
+
+.privacySection {
+  margin-top: 3rem;
+}
+
+.privacySection > a {
+  color: #1d9bf0;
+  text-decoration: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+#Dialog {
+  width: 100vw;
+  height: 100vh;
+}
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
+
+#buttonNext:hover {
+  background-color: #0f1419;
+  opacity: 0.9;
+}
+
+
+@keyframes twitterIcon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.twitterLogoBeforeSignup {
+  /* Other styles */
+  animation: twitterIcon 2.5s linear infinite;
+}
+
+.loader {
+  height: 5px;
+  width: 1px;
+  position: absolute;
+  animation: rotate0234 3.5s linear infinite;
+}
+
+.loader .dot {
+  top: 30px;
+  height: 7px;
+  width: 7px;
+  background: #268fe4;
+  border-radius: 50%;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  bottom: -85px;
+  font-size: 25px;
+  font-weight: 400;
+  color: #26aee4;
+}
+
